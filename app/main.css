@@ -1,0 +1,26 @@
+@import 'css/flex';
+@import 'css/base';
+@import 'css/borders';
+@import 'css/grid';
+@import 'css/text';
+@import 'css/spacers';
+@import 'css/list';
+
+.nav-item {
+  padding: 5px;
+  margin: 10px;
+
+  i {
+    padding-right: 5px;
+  }
+
+  &:first-child {
+    padding-right: 20px;
+    border-right: 1px solid #222;
+  }
+}
+/* TODO this needs to be refactored better */
+.img-max {
+  max-width: 408px;
+  max-height: 412px;
+}

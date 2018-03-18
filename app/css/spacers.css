@@ -1,0 +1,11 @@
+.pad-sides-20 {
+  padding: 20px;
+}
+
+.guttered {
+  margin: 0 50px;
+
+  > div {
+    margin: 30px 0;
+  }
+}

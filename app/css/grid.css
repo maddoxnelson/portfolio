@@ -1,0 +1,41 @@
+$grid-span: 12;
+
+.col {
+
+  &.col-dt-12 {
+    width: 100%;
+  }
+
+  &.col-dt-10 {
+    width: calc((100% / $grid-span) * 10);
+  }
+
+  &.col-dt-9 {
+    width: calc((100% / $grid-span) * 9);
+  }
+
+  &.col-dt-8 {
+    width: calc((100% / $grid-span) * 8);
+  }
+
+  &.col-dt-6 {
+    width: calc((100% / $grid-span) * 6);
+  }
+
+  &.col-dt-4 {
+    width: calc((100% / $grid-span) * 4);
+  }
+
+  &.col-dt-3 {
+    width: calc((100% / $grid-span) * 3);
+  }
+
+  &.col-dt-2 {
+    width: calc((100% / $grid-span) * 2);
+  }
+
+  &.col-dt-1 {
+    width: calc((100% / $grid-span));
+  }
+
+}

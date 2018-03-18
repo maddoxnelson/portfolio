@@ -1,0 +1,30 @@
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.light-text {
+  color: #fff;
+}
+
+.blue-txt, a {
+  color: #1e64cd;
+}
+
+.upper-txt {
+  text-transform: uppercase;
+}
+
+.blue-back {
+  background: #041932;
+}
+
+.white-back {
+  background: #fff;
+}
+
+p {
+  &.spread {
+    line-height: 24px;
+  }
+}
